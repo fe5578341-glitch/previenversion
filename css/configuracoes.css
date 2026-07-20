@@ -1,0 +1,157 @@
+.configuracoes{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:22px;
+
+    margin-top:35px;
+
+    padding-bottom:40px;
+    margin-left: 12px;
+    margin-right: 12px;
+
+}
+
+.card-config{
+
+    background:rgba(0,0,0,.35);
+
+    border:1px solid rgba(59,130,246,.18);
+
+    border-radius:22px;
+
+    padding:22px;
+
+    backdrop-filter:blur(10px);
+
+}
+
+.card-config h2{
+
+    color:white;
+
+    font-size:22px;
+
+    font-weight:500;
+
+    margin-bottom:20px;
+
+}
+
+.item-config{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:14px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.item-config:last-child{
+
+    border-bottom:none;
+
+}
+
+.item-config span{
+
+    color:white;
+
+    font-size:16px;
+
+}
+
+.item-config input{
+
+    width:20px;
+
+    height:20px;
+
+    accent-color:#3b82f6;
+
+    cursor:pointer;
+
+}
+
+.card-config select{
+
+    width:100%;
+
+    height:55px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:18px;
+
+    padding:0 18px;
+
+    color:white;
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(59,130,246,.20);
+
+}
+
+.btn-config{
+
+    width:100%;
+
+    height:50px;
+
+    margin-bottom:12px;
+
+    border:none;
+
+    border-radius:16px;
+
+    background:rgba(59,130,246,.15);
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.btn-config:last-child{
+
+    margin-bottom:0;
+
+}
+
+.btn-config:hover{
+
+    background:rgba(59,130,246,.28);
+
+}
+
+.card-config p{
+
+    color:white;
+
+    font-size:18px;
+
+    margin-bottom:6px;
+
+}
+
+.card-config span{
+
+    color:#8fa7d8;
+
+    font-size:15px;
+
+}

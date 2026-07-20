@@ -1,0 +1,281 @@
+.nova-categoria{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+    margin-top:35px;
+
+    padding-bottom:40px;
+
+}
+
+.campo{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+.campo label{
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:500;
+
+    padding-left:10px;
+
+}
+
+.campo input,
+.campo select{
+
+    width:90%;
+
+    height:55px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:18px;
+
+    padding:0 18px;
+
+    font-size:16px;
+
+    color:white;
+
+    background:rgba(0,0,0,.35);
+
+    border:1px solid rgba(59,130,246,.20);
+
+    backdrop-filter:blur(10px);
+
+}
+
+.campo input::placeholder{
+
+    color:#8fa7d8;
+
+}
+
+.cores{
+
+    display:flex;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    padding-left:10px;
+
+}
+
+.cor{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    border:3px solid transparent;
+
+    transition:.25s;
+
+}
+
+.cor:hover{
+
+    transform:scale(1.1);
+
+}
+
+.cor.ativo{
+
+    border:3px solid white;
+
+}
+
+.azul{
+
+    background:#3b82f6;
+
+}
+
+.verde{
+
+    background:#22c55e;
+
+}
+
+.vermelho{
+
+    background:#ef4444;
+
+}
+
+.amarelo{
+
+    background:#facc15;
+
+}
+
+.roxo{
+
+    background:#8b5cf6;
+
+}
+
+.rosa{
+
+    background:#ec4899;
+
+}
+
+.preview h3{
+
+    color:white;
+
+    font-weight:500;
+
+    margin-bottom:15px;
+    
+ margin-left: 20px;
+}
+
+.card-preview{
+
+    display:flex;
+    width: 82%;
+
+    align-items:center;
+
+    gap:18px;
+
+    padding:20px;
+
+    border-radius:20px;
+
+    background:rgba(0,0,0,.35);
+
+    border:1px solid rgba(59,130,246,.18);
+
+    backdrop-filter:blur(10px);
+    margin-left:15px;
+    margin-right: 20px;
+
+}
+
+.icone-preview{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#3b82f6;
+
+    font-size:28px;
+
+}
+
+.card-preview h4{
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:500;
+
+    margin-bottom:5px;
+
+}
+
+.card-preview span{
+
+    color:#8fa7d8;
+
+}
+
+.acoes{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.btn-cancelar{
+
+    flex:1;
+
+    height:55px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    background:transparent;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+
+.btn-salvar{
+
+    flex:2;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:#3b82f6;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.btn-salvar:hover{
+
+    background:#2563eb;
+
+}
+.input-nome{
+
+    width:30px;
+
+}

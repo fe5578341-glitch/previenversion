@@ -1,0 +1,167 @@
+.metas{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:22px;
+
+    margin-top:35px;
+
+    padding-bottom:40px;
+
+}
+
+.btn-nova-meta{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:#3b82f6;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.btn-nova-meta:hover{
+
+    background:#2563eb;
+
+}
+
+.card-meta{
+
+    background:rgba(0,0,0,.35);
+
+    border:1px solid rgba(59,130,246,.18);
+
+    border-radius:22px;
+
+    padding:22px;
+
+    backdrop-filter:blur(10px);
+
+}
+
+.topo-meta{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:18px;
+
+}
+
+.topo-meta h3{
+
+    color:white;
+
+    font-size:20px;
+
+    font-weight:500;
+
+}
+
+.topo-meta span{
+
+    color:#3b82f6;
+
+    font-weight:600;
+
+}
+
+.barra{
+
+    width:100%;
+
+    height:12px;
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    margin-bottom:18px;
+
+}
+
+.progresso{
+
+    height:100%;
+
+    background:#3b82f6;
+
+    border-radius:10px;
+
+}
+
+.valores{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    color:white;
+
+    margin-bottom:15px;
+
+    font-size:15px;
+
+}
+
+.data-meta{
+
+    color:#8fa7d8;
+
+    margin-bottom:18px;
+
+}
+
+.btn-editar-meta{
+
+    width:100%;
+
+    height:48px;
+
+    border:none;
+
+    border-radius:16px;
+
+    background:rgba(59,130,246,.15);
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.btn-editar-meta:hover{
+
+    background:rgba(59,130,246,.28);
+
+}

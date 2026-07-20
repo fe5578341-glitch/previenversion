@@ -1,0 +1,254 @@
+.menu-btn i{
+    display:flex;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.menu-btn{
+    display:flex;
+    margin-top: 40px;
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+}
+
+header{
+    background: transparent;
+}
+
+.menu-lateral a{
+
+    display:flex;
+    align-items:center;
+
+    gap:18px;
+
+    padding:18px 10px;
+
+    margin-bottom:3px;
+
+}
+
+.titulo-pag{
+    display: flex;
+    margin-bottom:15px;
+    margin-top: -10px;
+    text-align:center;
+    align-items: center;
+}
+
+.menu-titulo-nt {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 70px;
+}
+
+.menu-btn{
+    position: absolute;
+    left: 0;
+    top: -4px;
+    transform: translateY(-50%);
+
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-titulo-nt h1{
+    margin: 0;
+    color: white;
+    font-size: 25px;
+}
+
+/*tela isolada nova transação*/
+
+.nova-transacao{
+
+    margin-top:40px;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:25px;
+}
+
+.campo{
+
+    display:flex;
+    flex-direction:column;
+
+    gap:10px;
+    padding: 0 10px;
+}
+
+.campo label{
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:500;
+    padding: 0 10px;
+}
+
+.campo input,
+.campo select{
+
+    height:55px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:18px;
+
+    padding:0 18px;
+
+    color:white;
+
+    font-size:16px;
+
+    background:rgba(0,0,0,.35);
+
+    border:1px solid rgba(59,130,246,.20);
+
+    backdrop-filter:blur(10px);
+
+}
+
+.campo input::placeholder{
+
+    color:#8fa7d8;
+
+}
+
+.campo select{
+
+    cursor:pointer;
+
+}
+
+.tipo-transacao{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.tipo-btn{
+
+    flex:1;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:rgba(0,0,0,.35);
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+    border:1px solid rgba(59,130,246,.20);
+
+}
+
+.tipo-btn:hover{
+
+    background:rgba(59,130,246,.18);
+
+}
+
+.tipo-btn.ativo{
+
+    background:#2b60b6;
+    color:white;
+}
+
+.botoes-form{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:20px;
+
+}
+
+.btn-cancelar{
+
+    flex:1;
+
+    height:55px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    background:transparent;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.btn-cancelar:hover{
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.btn-salvar{
+
+    flex:2;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:#2b60b6;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+    box-shadow: none;
+    margin-bottom: 45px;
+}
+
+.btn-salvar:hover{
+
+    transform:scale(1.02);
+
+    box-shadow: none;
+
+}

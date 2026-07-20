@@ -1,0 +1,213 @@
+body{
+    background-color: rgb(30, 30, 95);
+}
+
+.titulo-pag{
+    color: white;
+}
+
+
+
+
+
+
+.menu-lateral{
+
+    position:fixed;
+
+    top:0;
+    left:-330px;
+
+    width:270px;
+    height:100vh;
+
+    background:linear-gradient(
+        180deg,
+        #102d70,
+        #06142e,
+        #000
+    );
+
+    backdrop-filter:blur(15px);
+
+    transition:.35s;
+
+    z-index:1001;
+
+    padding:30px 25px;
+
+    box-shadow:
+    8px 0 30px rgba(0,0,0,.45);
+
+    gap: 40px;
+}
+
+.menu-lateral.ativo{
+
+    left:0;
+
+}
+
+.titulo-pag{
+    display: flex;
+    margin-bottom:40px;
+    text-align:center;
+    align-items: center;
+}
+
+.titulo-pag h2{
+
+    font-weight:500;
+    color:white;
+
+}
+
+.menu-lateral a{
+
+    display:flex;
+    align-items:center;
+
+    gap:18px;
+
+    color:white;
+    text-decoration:none;
+
+    padding:18px 10px;
+
+    border-radius:15px;
+
+    transition:.25s;
+
+    margin-bottom:8px;
+
+}
+
+
+.menu-lateral a:hover{
+
+    background:rgba(59,130,246,.18);
+
+}
+
+.menu-lateral a i{
+
+    font-size:20px;
+    color:#4b8dff;
+
+    width:25px;
+
+}
+
+.menu-lateral a span{
+
+    font-size:17px;
+
+}
+
+/* ---------- Overlay ---------- */
+
+.overlay{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.45);
+
+    opacity:0;
+    visibility:hidden;
+
+    transition:.35s;
+
+    z-index:1000;
+
+}
+
+.overlay.ativo{
+
+    opacity:1;
+    visibility:visible;
+
+}
+
+/* Evita que o menu fique atrás do botão + */
+
+.fab{
+
+    z-index:998;
+
+}
+
+.menu-titulo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+.menu-btn{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu-titulo h1{
+    margin: 0;
+}
+
+.btn-voltar{
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    gap:10px;
+
+    width:150px;
+    height:50px;
+
+    margin:10px auto 20px 1px;
+
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:18px;
+
+    background:rgba(0,0,0,.35);
+
+    color:white;
+
+    font-size:17px;
+    font-weight:500;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+    backdrop-filter:blur(10px);
+
+}
+
+.btn-voltar i{
+
+    color:#3b82f6;
+
+    font-size:18px;
+
+}
+
+.btn-voltar:hover{
+
+    background:rgba(59,130,246,.15);
+
+    border-color:rgba(59,130,246,.4);
+
+    transform:translateY(-2px);
+
+}
+
+.btn-voltar:active{
+
+    transform:translateY(0);
+
+}

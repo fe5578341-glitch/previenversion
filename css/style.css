@@ -1,0 +1,321 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.login{
+
+    background:
+    radial-gradient(
+        circle at 30% 10%,
+        #1b4eb6 0%,
+        #0d255c 35%,
+        #05142f 65%,
+        #000000 100%
+    );
+
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+
+    min-height:100vh;
+}
+
+.container{
+
+    width:300px;
+    height:500px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* Avatar */
+
+.avatar{
+
+    margin-top:70px;
+    margin-bottom:50px;
+}
+
+.avatar svg{
+
+    width:140px;
+    height:140px;
+
+    fill:none;
+    stroke:#ececec;
+    stroke-width:3;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+}
+
+/* Form */
+
+form{
+
+    width:100%;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* Inputs */
+
+input{
+
+    width:200px;
+    height:50px;
+
+    margin-bottom:28px;
+
+    border: 2px solid #6f86b3;
+    outline:none;
+
+    border-radius:25px;
+
+    background-color: #081739;
+
+    color:#fff;
+
+    text-align:center;
+
+    font-size:20px;
+}
+
+input::placeholder{
+
+    color:#fff;
+}
+
+/* Links */
+
+a{
+
+    text-decoration:none;
+
+    color:#d7d7d7;
+
+    font-size:15px;
+
+    margin-bottom:40px;
+
+    transition:.3s;
+}
+
+a:hover{
+
+    color:white;
+}
+
+/* Botão */
+
+button{
+
+    width:200px;
+    height:50px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:#ffffff;
+
+    color: green;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+    margin-bottom:20px;
+
+    transition:.3s;
+    text-decoration:none;
+}
+
+.login-page button:hover{
+
+    background:#ffffff;
+    transform:scale(1.10);
+}
+
+.entrar a {
+    color: black;
+    font-size: 22px;
+}
+
+.entrar button:hover{
+    transform:scale(1.10);
+}
+
+/* aqui começa o css da pagina inicial*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.paginicial{
+    min-height:100vh;
+    color:#fff;
+    padding:25px;
+
+    
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    margin-bottom:50px;
+}
+
+.menu-btn{
+    position:absolute;
+    left:0;
+    background:none;
+    border:none;
+    color:rgb(235, 235, 235);
+    font-size:28px;
+    cursor:pointer;
+    width: 40px;
+}
+.menu-btn:hover{
+    transform:scale(1.15);
+}
+
+header h1{
+    font-size:2rem;
+    font-weight:500;
+}
+
+main h2{
+    margin-bottom:20px;
+    font-size:1.7rem;
+    font-weight:500;
+    text-align: center;
+}
+
+.search-box{
+    height:60px;
+    border-radius:30px;
+
+    display:flex;
+
+    padding:0 25px;
+    margin-bottom:30px;
+
+    background:rgba(0,0,0,.45);
+
+    border:1px solid rgba(59,130,246,.25);
+
+    backdrop-filter:blur(12px);
+}
+
+.search-box i{
+    display: flex;
+    color:#3b82f6;
+    font-size:20px;
+    align-items: center;
+    
+}
+
+.search-box input{
+    width:100%;
+    background:none;
+    border:none;
+    outline:none;
+    color:white;
+    font-size:1rem;
+}
+
+.search-box input::placeholder{
+    color:#8fa7d8;
+}
+
+.transaction-card{
+    display:flex;
+    align-items:center;
+    gap:18px;
+
+    background:rgba(0,0,0,.35);
+
+    border:1px solid rgba(59,130,246,.15);
+
+    backdrop-filter:blur(10px);
+
+    padding:18px;
+    border-radius:24px;
+
+    margin-bottom:18px;
+
+    transition:.3s;
+}
+
+.transaction-card:hover{
+    transform:translateY(-2px);
+    border-color:rgba(59,130,246,.35);
+}
+
+
+.info{
+    flex:1;
+}
+
+.info h3{
+    font-size:1.1rem;
+    margin-bottom:5px;
+    font-weight:500;
+}
+
+.info span{
+    color:#94a3b8;
+    font-size:.9rem;
+}
+
+.amount{
+    font-size:1.2rem;
+    font-weight:600;
+    font-size: 18px;
+}
+
+.expense{
+    color:#ffffff;
+}
+
+.income{
+    color:#3b82f6;
+}
+
+.fab{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+
+    width:75px;
+    height:75px;
+
+    border:none;
+    border-radius:50%;
+
+    background:#053074;
+    color:white;
+
+    font-size:28px;
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.fab:hover{
+    transform:scale(1.15);
+}
+
+
