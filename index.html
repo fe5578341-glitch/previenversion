@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+    <title>Finance Dashboard</title>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+            // Procura um token salvo
+            const token = localStorage.getItem("token");
+
+            // Se existir token, entra no sistema
+            if (token) {
+                window.location.href = "pages/dashboard.html";
+            }
+
+            // Caso contrário vai para login
+            else {
+                window.location.href = "pages/login.html";
+            }
+
+        });
+    </script>
+
+</head>
+
+
+<body>
+
+    <p>Carregando...</p>
+
+</body>
+
+</html>
