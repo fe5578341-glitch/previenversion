@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela inicial</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="../midia/icone.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+<body class="paginicial">
+
+    <div class="menu-titulo">
+        <div id="overlay" class="overlay"></div>
+        
+        <div id="menu-container"></div>
+        <h1>app</h1>
+    </div>
+
+    <main>
+
+        <h2>Transações recentes</h2>
+
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Pesquisar transações">
+        </div>
+
+        <div class="transaction-card">
+
+            <div class="info">
+                <h3>Supermercado</h3>
+                <span>14 Jul, 2025</span>
+            </div>
+
+            <div class="amount expense">
+                -R$ 152,30
+            </div>
+        </div>
+
+        <div class="transaction-card">
+
+            <div class="info">
+                <h3>Salário</h3>
+                <span>14 Jul, 2025</span>
+            </div>
+
+            <div class="amount income">
+                +R$ 2.450,00
+            </div>
+        </div>
+
+        <div class="transaction-card">
+
+            <div class="info">
+                <h3>Posto Ipiranga</h3>
+                <span>13 Jul, 2025</span>
+            </div>
+
+            <div class="amount expense">
+                -R$ 120,00
+            </div>
+        </div>
+
+        <div class="transaction-card">
+
+            <div class="info">
+                <h3>Restaurante</h3>
+                <span>12 Jul, 2025</span>
+            </div>
+
+            <div class="amount expense">
+                -R$ 89,90
+            </div>
+        </div>
+
+    </main>
+
+    <a href="nova-transacao.html">
+        <button class="fab">
+            <i class="fas fa-plus"></i>
+        </button>
+    </a>
+
+<script src="../javascript/menu.js"></script>
+
+</body>
+</html>

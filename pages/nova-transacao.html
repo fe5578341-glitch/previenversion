@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova transação</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/novatransacao.css">
+    <link rel="shortcut icon" href="../midia/icone.ico" type="image/x-icon">
+</head>
+<body>
+<div class="menu-titulo-nt">
+    <div id="overlay" class="overlay"></div>
+    
+    <div id="menu-container"></div>
+    <h1>Nova Transação</h1>
+</div>
+
+<main class="nova-transacao">
+
+    <div class="campo">
+        <label>Tipo da transação</label>
+
+        <div class="tipo-transacao">
+            <button class="tipo-btn ativo">Receita</button>
+            <button class="tipo-btn">Despesa</button>
+        </div>
+    </div>
+
+    <div class="campo">
+        <label for="categoria">Categoria</label>
+
+        <select id="categoria">
+            <option value="">Selecione uma categoria</option>
+            <option>Alimentação</option>
+            <option>Transporte</option>
+            <option>Moradia</option>
+            <option>Lazer</option>
+            <option>Saúde</option>
+            <option>Salário</option>
+            <option>Outros</option>
+        </select>
+    </div>
+
+    <div class="campo">
+        <label for="descricao">Descrição</label>
+
+        <input
+            type="text"
+            id="descricao"
+            placeholder="Ex.: Compra no mercado">
+    </div>
+
+    <div class="campo">
+        <label for="data">Data</label>
+
+        <input
+            type="date"
+            id="data">
+    </div>
+
+    <div class="campo">
+        <label for="valor">Valor</label>
+
+        <input
+            type="number"
+            id="valor"
+            step="0.01"
+            placeholder="R$ 0,00">
+    </div>
+
+    <div class="botoes-form">
+
+        
+            <button class="btn-cancelar">
+                Cancelar
+            </button>
+
+        <button class="btn-salvar">
+            Salvar Transação
+        </button>
+
+    </div>
+
+    <button class="btn-voltar" onclick="history.back()">
+    <i class="fas fa-arrow-left"></i>
+    Voltar
+</button>
+
+</main>
+
+
+<script src="../javascript/menu.js"></script>
+<script src="../javascript/nova-transacao.js"></script>
+</body>
+</html>

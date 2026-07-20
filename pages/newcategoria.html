@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova categoria</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/newcategoria.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/novatransacao.css">
+    <link rel="shortcut icon" href="../midia/icone.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="menu-titulo-nt">
+    <div id="overlay" class="overlay"></div>
+    
+    <div id="menu-container"></div>
+    <h1>Nova categoria </h1>
+</div>
+
+    <main class="nova-categoria">
+
+    <div class="campo">
+
+        <label for="nomeCategoria">Nome da categoria</label>
+
+        <input
+            type="text"
+            id="nomeCategoria"
+            placeholder="Ex.: Alimentação">
+
+    </div>
+
+    <div class="campo">
+
+        <label for="iconeCategoria">Ícone</label>
+
+        <select id="iconeCategoria">
+
+            <option>🍔 Alimentação</option>
+            <option>⛽ Transporte</option>
+            <option>🏠 Moradia</option>
+            <option>💊 Saúde</option>
+            <option>🎮 Lazer</option>
+            <option>💼 Trabalho</option>
+            <option>📚 Estudos</option>
+            <option>🛍 Compras</option>
+            <option>💰 Investimentos</option>
+            <option>⭐ Outro</option>
+
+        </select>
+
+    </div>
+
+    <div class="campo">
+
+        <label>Cor da categoria</label>
+
+        <div class="cores">
+
+            <div class="cor azul ativo"></div>
+
+            <div class="cor verde"></div>
+
+            <div class="cor vermelho"></div>
+
+            <div class="cor amarelo"></div>
+
+            <div class="cor roxo"></div>
+
+            <div class="cor rosa"></div>
+
+        </div>
+
+    </div>
+
+    <div class="preview">
+
+        <h3>Pré-visualização</h3>
+
+        <div class="card-preview">
+
+            <div class="icone-preview">
+
+                🍔
+
+            </div>
+
+            <div>
+
+                <h4>Alimentação</h4>
+
+                <span>Nova categoria</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="acoes">
+
+        <button class="btn-cancelar" onclick="history.back()">
+
+            Cancelar
+
+        </button>
+
+        <button class="btn-salvar">
+
+            Salvar Categoria
+
+        </button>
+
+    </div>
+
+</main>
+
+<script src="../javascript/menu.js"></script>
+<script src="../javascript/nova-transacao.js"></script>
+
+</body>
+</html>

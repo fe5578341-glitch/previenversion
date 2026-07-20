@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transações fixas</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/transacoes-fixas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/novatransacao.css">
+    <link rel="shortcut icon" href="../midia/icone.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="menu-titulo-nt">
+    <div id="overlay" class="overlay"></div>
+    
+    <div id="menu-container"></div>
+    <h1>Transações fixas</h1>
+</div>
+
+    <main class="nova-fixa">
+
+    <div class="campo">
+
+        <label>Tipo</label>
+
+        <div class="tipo-transacao">
+
+    <input type="radio" id="receita" name="tipo" checked>
+
+    <label for="receita" class="opcao">
+        Receita
+    </label>
+
+    <input type="radio" id="despesa" name="tipo">
+
+    <label for="despesa" class="opcao">
+        Despesa
+    </label>
+
+</div>
+
+    </div>
+
+    <div class="campo">
+
+        <label>Categoria</label>
+
+        <select>
+
+            <option>Alimentação</option>
+            <option>Moradia</option>
+            <option>Transporte</option>
+            <option>Lazer</option>
+            <option>Salário</option>
+
+        </select>
+
+    </div>
+
+    <div class="campo">
+
+        <label>Descrição</label>
+
+        <input
+            type="text"
+            placeholder="Ex.: Aluguel">
+
+    </div>
+
+    <div class="campo">
+
+        <label>Valor</label>
+
+        <input
+            type="number"
+            placeholder="R$ 0,00">
+
+    </div>
+
+    <div class="campo">
+
+        <label>Frequência</label>
+
+        <select>
+
+            <option>Mensal</option>
+            <option>Semanal</option>
+            <option>Anual</option>
+
+        </select>
+
+    </div>
+
+    <div class="campo">
+
+        <label>Dia do vencimento</label>
+
+        <input type="date">
+
+    </div>
+
+    <div class="card-opcoes">
+
+        <div class="opcao-switch">
+
+            <div>
+
+                <h3>Receber lembrete</h3>
+
+                <span>Enviar notificação no vencimento.</span>
+
+            </div>
+
+            <label class="switch">
+
+                <input type="checkbox" checked>
+
+                <span class="slider"></span>
+
+            </label>
+
+        </div>
+
+        <div class="opcao-switch">
+
+            <div>
+
+                <h3>Lançamento automático</h3>
+
+                <span>Atualizar o saldo automaticamente.</span>
+
+            </div>
+
+            <label class="switch">
+
+                <input type="checkbox">
+
+                <span class="slider"></span>
+
+            </label>
+
+        </div>
+
+        <div class="opcao-switch">
+
+            <div>
+
+                <h3>Pedir confirmação</h3>
+
+                <span>Perguntar se a transação ocorreu.</span>
+
+            </div>
+
+            <label class="switch">
+
+                <input type="checkbox" checked>
+
+                <span class="slider"></span>
+
+            </label>
+
+        </div>
+
+    </div>
+
+    <div class="acoes">
+
+        <button class="btn-cancelar" onclick="history.back()">
+
+            Cancelar
+
+        </button>
+
+        <button class="btn-salvar">
+
+            Salvar Transação
+
+        </button>
+
+    </div>
+
+</main>
+<script src="../javascript/menu.js"></script>
+<script src="../javascript/nova-transacao.js"></script>
+</body>
+</html>

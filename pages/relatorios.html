@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/novatransacao.css">
+    <link rel="stylesheet" href="../css/relatorios.css">
+    <link rel="shortcut icon" href="../midia/icone.ico" type="image/x-icon">
+
+</head>
+<body>
+    <div class="menu-titulo-nt">
+    <div id="overlay" class="overlay"></div>
+    
+    <div id="menu-container"></div>
+    <h1>Relatórios</h1>
+</div>
+
+<main class="relatorios">
+
+    <div class="topo-relatorios">
+
+    <div class="filtros">
+
+        <div class="campo">
+
+            <label>Período</label>
+
+            <select>
+                <option>Este mês</option>
+                <option>Últimos 3 meses</option>
+                <option>Últimos 6 meses</option>
+                <option>Este ano</option>
+            </select>
+
+        </div>
+
+        <div class="campo">
+
+            <label>Categoria</label>
+
+            <select>
+                <option>Todas</option>
+                <option>Alimentação</option>
+                <option>Transporte</option>
+                <option>Moradia</option>
+                <option>Lazer</option>
+            </select>
+
+        </div>
+
+        <div class="checkbox-filtro">
+
+    <input
+        type="checkbox"
+        id="investimentos">
+
+    <label for="investimentos">
+        Contar investimentos
+    </label>
+
+</div>
+
+    </div>
+
+    <div class="card-relatorio saldo-card">
+
+        
+            <h3>Saldo</h3>
+        
+
+        <p class="valor destaque">
+            R$ 00,00
+        </p>
+
+        
+            <h3>Patrimônio</h3>
+
+        <p class="valor destaque">
+            R$ 0,00
+        </p>
+
+    </div>
+
+</div>
+
+    <div class="card-duplo">
+
+    <div class="metade">
+
+        <h3>Receitas</h3>
+
+        <p class="valor positivo">
+            +R$ 0,00
+        </p>
+
+    </div>
+
+    <div class="divisor"></div>
+
+    <div class="metade">
+
+        <h3>Despesas</h3>
+
+        <p class="valor negativo">
+            -R$ 0,00
+        </p>
+
+    </div>
+
+</div>
+
+    <div class="card-relatorio">
+
+        <h3>Gastos por Categoria</h3>
+
+        <div class="categoria-item">
+            <span>🍔 Alimentação</span>
+            <strong>R$ 980,00</strong>
+        </div>
+
+        <div class="categoria-item">
+            <span>⛽ Transporte</span>
+            <strong>R$ 620,00</strong>
+        </div>
+
+        <div class="categoria-item">
+            <span>🏠 Moradia</span>
+            <strong>R$ 1.400,00</strong>
+        </div>
+
+        <div class="categoria-item">
+            <span>🎮 Lazer</span>
+            <strong>R$ 640,20</strong>
+        </div>
+
+    </div>
+
+    <div class="card-relatorio">
+
+        <h3>Evolução Mensal</h3>
+
+        <div class="grafico-placeholder">
+
+            Gráfico da evolução mensal
+
+        </div>
+
+    </div>
+
+    <button class="btn-voltar" onclick="history.back()">
+    <i class="fas fa-arrow-left"></i>
+    Voltar
+</button>
+
+</main>
+
+<script src="../javascript/menu.js"></script>
+</body>
+</html>
